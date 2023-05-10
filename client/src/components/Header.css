@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .header-left {
+    flex: 1;
+  }
+  
+  .header-right {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    flex: 1;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    header {
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .header-left,
+    .header-right {
+      flex: none;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .header-left h1 {
+      margin-bottom: 10px;
+    }
+  
+    .header-right h2 {
+      margin-top: 10px;
+    }
+  }
+  
