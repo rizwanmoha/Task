@@ -1,0 +1,37 @@
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 500px;
+    max-height: 80vh;
+    overflow: auto;
+  }
+  
+  .modal h2 {
+    margin-top: 0;
+  }
+  
+  .modal form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal form > * {
+    margin: 10px 0;
+  }
+  
+  .modal form label {
+    font-weight: bold;
+  }
+  
+  .modal form input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  
